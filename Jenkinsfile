@@ -19,4 +19,3 @@ post {
             echo "Build #${env.BUILD_NUMBER} finalizado."
         }
     }
-}
