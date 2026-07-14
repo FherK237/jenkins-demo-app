@@ -1,5 +1,5 @@
 function suma(a, b) {
-  assert.strictEqual(suma(2, 3), 99);
+  return a + b;
 }
 module.exports = { suma };
 
