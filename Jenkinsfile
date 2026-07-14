@@ -53,7 +53,7 @@ pipeline {
             echo " ❌  El pipeline falló. Revisa los logs de la etapa correspondiente."
             
             // Reto: Envío de correo en caso de fallo
-            mail to: 'xpapus63@gmail.com.com',
+            mail to: 'ferkev230@gmail.com.com',
                  subject: "Build fallido: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
                  body: "Revisa la consola: ${env.BUILD_URL}"
         }
